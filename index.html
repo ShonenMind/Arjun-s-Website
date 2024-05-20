@@ -1,42 +1,99 @@
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Website</title>
-    </head>
-    <body>
-    
-        <header>
-            <h1>Welcome to My Website</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-    
-        <main>
-            <section id="home">
-                <h2>Home</h2>
-                <p>This is the homepage of my website.</p>
-            </section>
-    
-            <section id="about">
-                <h2>About</h2>
-                <p>This is the about page of my website.</p>
-            </section>
-    
-            <section id="contact">
-                <h2>Contact</h2>
-                <p>This is the contact page of my website.</p>
-            </section>
-        </main>
-    
-        <footer>
-            <p>&copy; 2024 My Website. All rights reserved.</p>
-        </footer>
-    
-    </body>
-    </html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Meta information-->
+    <meta charset="utf-8" />
+    <title>Arjun Damerla</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Arjun's Personal Website" />
+    <meta name="author" content="Arjun Damerla @ UC Berkeley" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <!--Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Style sheet-->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="content container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="mb-auto">
+        <!--Contact icons-->
+        <nav class="nav justify-content-end" role="navigation">
+          <a class="nav-link" href="https://www.linkedin.com/in/arjun-damerla-955125227/"
+            ><i class="bi bi-linkedin"></i
+          ></a>
+
+          <a class="nav-link" href="mailto:arjundamerla@berkeley.edu"
+            ><i class="bi bi-envelope-at-fill"></i
+          ></a>
+        </nav>
+      </header>
+
+      <main class="align-self-center py-5 w-75 h-75">
+        <!--Avatar section-->
+        <div
+          class="justify-content-between d-flex h-100 w-100"
+          id="avatar-section"
+        >
+          <div class="avatar-text d-flex flex-column">
+            <h2 id="name">hiya! i'm <span>Arjun Damerla</span></h2>
+            <h3 class="intro-text" id="typing-text">
+              currently <span class="typing"></span>
+            </h3>
+            <h3 class="intro-text">studying Computer Science and Applied Math @ UC Berkeley</h3>
+          </div>
+          <!--Profile picture-->
+          <div class="img-container d-flex">
+            <img class="avatar" src="avatar.png" />
+          </div>
+        </div>
+
+        <!--Break between avatar section and introduction-->
+        <div class="break"></div>
+
+        <!--Short intro-->
+        <h5 class="intro p-2">
+          Currently a third year college student interested in language models, algorithmic complexity, 
+          differential geometry, and hanging out with friends and family :D
+        </h5>
+        <h5 class="intro p-2">
+        Checkout my
+          resume
+          <span
+            ><a
+              href="https://drive.google.com/file/d/1CxJpczUnR3ksKzwEM-36UjN6jWjJDQvQ/view?usp=sharing"
+              >here</a
+            ></span
+          >
+        </h5>
+        <div class="break"></div>
+      </main>
+
+      <footer class="mt-auto">Blogs coming soon!</footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

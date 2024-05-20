@@ -1,0 +1,136 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-image: url("background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #52c0d1;
+  }
+  
+  .nav-link {
+    color: #d5f9fb;
+    font-size: 1.5em;
+  }
+  .nav-link:hover {
+    cursor: pointer;
+    color: #e33030;
+  }
+  
+  .experience-title {
+    color: #56ead9;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.8vw;
+  }
+  
+  .experience-skills {
+    color: #32bcc6;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.3vw;
+    text-align: right;
+  }
+  
+  #avatar-section {
+    padding-top: 4em;
+    align-items: center;
+  }
+  #name {
+    font-weight: 700;
+    padding-bottom: 0.25em;
+  }
+  
+  .img-container {
+    height: 300px;
+    width: 300px;
+    align-items: center;
+  }
+  
+  .avatar {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100px;
+  }
+  
+  .intro {
+    color: #428eb2;
+  }
+  .intro a {
+    font-style: italic;
+    color: #4339f9;
+    text-underline-offset: 3px;
+  }
+  
+  .break {
+    padding-top: 12em;
+  }
+  .break2 {
+    padding-top: 6em;
+  }
+  
+  .section {
+    font-weight: 600;
+  }
+  .intro-text {
+    font-weight: 500;
+  }
+  
+  #typing-text span {
+    font-style: italic;
+    color: #f98f39;
+  }
+  
+  footer {
+    color: #57dde1;
+    font-weight: 400;
+    text-align: center;
+    font-size: small;
+  }
+  
+  @media (max-width: 992.98px) {
+    .img-container {
+      height: 20vw;
+      width: 20vw;
+    }
+    #name {
+      font-size: 2.3vw;
+    }
+    .section {
+      font-size: 2.3vw;
+    }
+    .intro-text {
+      font-size: 2vw;
+    }
+  }
+  
+  @media (max-width: 575.98px) {
+    .img-container {
+      height: 50vw;
+      width: 50vw;
+    }
+    #name {
+      align-self: center;
+      font-size: 4.5vw;
+    }
+  
+    .break {
+      padding-top: 10em;
+    }
+  
+    .intro-text {
+      align-self: center;
+      font-size: 3.5vw;
+    }
+  
+    .intro {
+      font-size: 3.5vw;
+      text-align: end;
+    }
+    #avatar-section {
+      flex-direction: column-reverse;
+    }
+    .avatar-text {
+      padding-top: 3em;
+    }
+  }
